@@ -42,8 +42,8 @@ export const SizeForm: React.FC<SizeFormProps> = ({ initialData }) => {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const title = initialData ? "Edit Size" : "Create Size";
-  const description = initialData ? "Edit Size" : "Add a new size";
+  const title = initialData ? "Edit size" : "Create size";
+  const description = initialData ? "Edit a size" : "Add a new size";
   const toasMessage = initialData ? "Size updated." : "Size created.";
   const action = initialData ? "Save changes" : "Create";
 

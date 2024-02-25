@@ -42,8 +42,8 @@ export const ColorForm: React.FC<ColorFormProps> = ({ initialData }) => {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const title = initialData ? "Edit Color" : "Create Color";
-  const description = initialData ? "Edit a Color" : "Add a new color";
+  const title = initialData ? "Edit color" : "Create color";
+  const description = initialData ? "Edit a color" : "Add a new color";
   const toasMessage = initialData ? "Color updated." : "Color created.";
   const action = initialData ? "Save changes" : "Create";
 

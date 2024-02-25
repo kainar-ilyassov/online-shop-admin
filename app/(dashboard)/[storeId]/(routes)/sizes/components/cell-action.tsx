@@ -16,8 +16,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 import { Button } from "@/components/ui/button";
-import { SizeColumn } from "./columns";
 import { AlertModal } from "@/components/modals/alert-modal";
+import { SizeColumn } from "./columns";
 
 interface CellActionProps {
   data: SizeColumn;
